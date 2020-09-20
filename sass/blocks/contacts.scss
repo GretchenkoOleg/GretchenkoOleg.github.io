@@ -27,6 +27,14 @@
   color: #ff6b08;
   margin-bottom: 20px;
 
+  &:focus,
+  &:hover {
+    color: $focus-color;
+  }
+  &:active {
+    opacity: 0.3;
+  }
+
   &--phone:before {
     content: "";
 

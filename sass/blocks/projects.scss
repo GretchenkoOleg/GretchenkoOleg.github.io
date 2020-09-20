@@ -1,9 +1,10 @@
 .projects {
-  margin-top: 55px;
+  margin-bottom: 100px;
+  width: 80%;
 }
 
 .projects__title {
-  font-size: 22px;
+  font-size: 30px;
   font-weight: 700;
   line-height: 24px;
 }
@@ -19,19 +20,28 @@
 
 .projects__link {
   color: #595959;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 24px;
+
+  &::after {
+    content: "................................";
+  }
+
+  &:focus,
+  &:hover {
+    color: $focus-color;
+  }
+  &:active {
+    opacity: 0.3;
+  }
 }
 
-.projects__dots {
-  color: #bebebe;
-  font-weight: 100;
-}
+
 
 .projects__tech-name {
   color: #595959;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 24px;
 }

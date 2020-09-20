@@ -378,6 +378,10 @@ img {
   line-height: 24px;
   color: #ff6b08;
   margin-bottom: 20px; }
+  .contacts__link:focus, .contacts__link:hover {
+    color: #68b738; }
+  .contacts__link:active {
+    opacity: 0.3; }
   .contacts__link--phone:before {
     content: "";
     position: absolute;
@@ -457,7 +461,8 @@ img {
   color: #d8dadd; }
 
 .hobbies {
-  margin-top: 55px; }
+  margin-top: 55px;
+  width: 100%; }
 
 .hobbies__title {
   font-size: 22px;
@@ -466,47 +471,64 @@ img {
   color: #ffffff; }
 
 .hobbies__list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
   margin-top: 20px;
-  padding-left: 15px; }
+  padding-left: 15px;
+  padding: 0; }
 
 .hobbies__item {
+  width: 30%;
+  list-style: none;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
-  color: #ff6b08; }
+  padding-bottom: 30px; }
 
-.hobbies__text {
-  color: #d8dadd; }
+.hobbies__image {
+  fill: #ff6b08; }
+  .hobbies__image:focus, .hobbies__image:hover {
+    fill: #68b738; }
 
 .page-main {
   padding-top: 40px;
   width: 100%; }
 
 .info {
-  padding-top: 65px; }
+  padding-top: 130px;
+  margin-bottom: 105px;
+  width: 100%; }
 
 .info__profession {
-  font-size: 25px;
+  font-size: 34px;
   font-weight: 700;
-  line-height: 24px; }
+  line-height: 24px;
+  margin-bottom: 55px;
+  margin-bottom: 120px;
+  background: #ff6b08;
+  width: 48%;
+  color: #ffffff;
+  padding: 10px 10px 10px 10px;
+  text-align: end; }
 
 .info__name {
   font-size: 45px;
   font-weight: 700;
   line-height: 89px;
-  margin-top: 23px; }
+  margin: 0 0 90px 0; }
 
 .info__discription {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
-  line-height: 24px;
-  margin-top: 24px; }
+  line-height: 24px; }
 
 .projects {
-  margin-top: 55px; }
+  margin-bottom: 100px;
+  width: 80%; }
 
 .projects__title {
-  font-size: 22px;
+  font-size: 30px;
   font-weight: 700;
   line-height: 24px; }
 
@@ -519,17 +541,19 @@ img {
 
 .projects__link {
   color: #595959;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 24px; }
-
-.projects__dots {
-  color: #bebebe;
-  font-weight: 100; }
+  .projects__link::after {
+    content: "................................"; }
+  .projects__link:focus, .projects__link:hover {
+    color: #68b738; }
+  .projects__link:active {
+    opacity: 0.3; }
 
 .projects__tech-name {
   color: #595959;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 24px; }
 
@@ -567,31 +591,30 @@ img {
   line-height: 24px; }
 
 .education {
-  margin-top: 30px;
   padding-bottom: 30px; }
 
 .education__title {
-  font-size: 22px;
+  font-size: 30px;
   font-weight: 700;
   line-height: 24px; }
 
 .education__place-of-study {
   color: #ff6b08;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 24px;
   margin-top: 21px; }
 
 .education__faculty {
   color: #000000;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 24px;
   margin-top: 15px; }
 
 .education__time {
   color: #a8a8a8;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 400;
   line-height: 24px; }
 
@@ -600,7 +623,7 @@ img {
 
 .education__subtitle {
   padding-top: 30px;
-  font-size: 18px;
+  font-size: 30px;
   font-weight: 700;
   line-height: 24px; }
 
@@ -640,6 +663,12 @@ img {
 .page-footer__link {
   color: #000000;
   padding-top: 25px; }
+
+.social__image:focus, .social__image:hover {
+  opacity: 0.6; }
+
+.social__image:active {
+  opacity: 0.3; }
 
 .visually-hidden:not(:focus):not(:active) {
   position: absolute;
