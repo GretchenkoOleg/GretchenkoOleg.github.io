@@ -1,0 +1,26 @@
+.page-footer {
+  background-color:$secondary-bg-color;
+  padding-top: 35px;
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+.page-footer__block {
+  @media (min-width: $desktop-width) {
+    display: flex;
+    justify-content:center;
+  }
+}
+
+.page-footer__social {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  width: 40%;
+}
+
+.page-footer__link {
+  color: #000000;
+  padding-top: 25px;
+}

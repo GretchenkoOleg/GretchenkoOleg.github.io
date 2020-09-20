@@ -1,0 +1,41 @@
+.hobbies {
+  margin-top: 55px;
+  width: 100%;
+}
+
+.hobbies__title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.hobbies__list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  padding-left: 15px;
+  padding: 0;
+}
+
+.hobbies__item {
+  width: 30%;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-bottom: 30px;
+}
+
+.hobbies__image {
+  fill: #ff6b08;
+  &:focus,
+  &:hover {
+    fill: $focus-color;
+  }
+
+}
+
+
+
