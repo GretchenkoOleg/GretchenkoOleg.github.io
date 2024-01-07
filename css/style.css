@@ -523,6 +523,65 @@ img {
   font-weight: 400;
   line-height: 24px; }
 
+.work_experience {
+  margin-bottom: 100px;
+  width: 80%;
+}
+
+.work_experience__title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.work_experience__title_position {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 15px;
+}
+
+.work_experience__company {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.work_experience__company_name {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.work_experience__company_type-of-work {
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.work_experience__period {
+  font-size: 13px;
+  line-height: 24px;
+  margin-top: 0px;
+}
+
+.work_experience__period-date {
+}
+
+.work_experience__responsibility_title {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.work_experience__responsibility__list {
+  padding-left: 15px;
+}
+
+.work_experience__responsibility__item {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
 .projects {
   margin-bottom: 100px;
   width: 80%; }
