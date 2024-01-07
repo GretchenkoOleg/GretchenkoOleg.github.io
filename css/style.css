@@ -496,7 +496,7 @@ img {
   width: 100%; }
 
 .info {
-  padding-top: 130px;
+  padding-top: 10px;
   margin-bottom: 105px;
   width: 100%; }
 
@@ -504,8 +504,7 @@ img {
   font-size: 34px;
   font-weight: 700;
   line-height: 24px;
-  margin-bottom: 55px;
-  margin-bottom: 120px;
+  margin-bottom: 10px;
   background: #ff6b08;
   width: 48%;
   color: #ffffff;
@@ -518,20 +517,46 @@ img {
   line-height: 89px;
   margin: 0 0 90px 0; }
 
+.info__title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 24px;
+  background-image: url("../../img/icon-why_me.svg");
+  background-repeat: no-repeat;
+  padding-left: 40px; }
+
 .info__description {
   font-size: 18px;
   font-weight: 400;
+  line-height: 24px;
+  margin-top: 15px;
+  }
+
+ .info__description_title {
+  font-size: 18px;
+  font-weight: 600;
   line-height: 24px; }
+
+ .info__description_list {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-left: 15px;
+  }
+
 
 .work_experience {
   margin-bottom: 100px;
-  width: 80%;
+  width: 100%;
 }
 
 .work_experience__title {
   font-size: 30px;
   font-weight: 700;
   line-height: 24px;
+  background-image: url("../../img/icon-suitcase.svg");
+  background-repeat: no-repeat;
+  padding-left: 40px;
 }
 
 .work_experience__title_position {
@@ -559,8 +584,11 @@ img {
 
 .work_experience__period {
   font-size: 13px;
-  line-height: 24px;
+  line-height: 13px;
   margin-top: 0px;
+  background-image: url("../../img/icon-work_time.svg");
+  background-repeat: no-repeat;
+  padding-left: 20px;
 }
 
 .work_experience__period-date {
@@ -655,7 +683,10 @@ img {
 .education__title {
   font-size: 30px;
   font-weight: 700;
-  line-height: 24px; }
+  line-height: 24px;
+  background-image: url("../../img/icon-education.svg");
+  background-repeat: no-repeat;
+  padding-left: 50px; }
 
 .education__place-of-study {
   color: #ff6b08;
@@ -681,10 +712,13 @@ img {
   color: #000000; }
 
 .education__subtitle {
-  padding-top: 30px;
+  margin-top: 30px;
   font-size: 30px;
   font-weight: 700;
-  line-height: 24px; }
+  line-height: 24px;
+  background-image: url("../../img/icon-courses.svg");
+  background-repeat: no-repeat;
+  padding-left: 40px; }
 
 .container {
   width: auto;
