@@ -425,8 +425,13 @@ img {
   line-height: 24px;
   color: #ffffff; }
 
+ .tech-skills__subtitle {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #ff6b08; }
+
 .tech-skills__list {
-  margin-top: 20px;
   padding-left: 15px; }
 
 .tech-skills__item {
