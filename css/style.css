@@ -390,8 +390,6 @@ img {
     width: 32px;
     height: 32px;
     background-image: url("../../img/icon-phone.svg");
-    background-color: #ffffff;
-    border-radius: 50%;
     background-repeat: no-repeat; }
   .contacts__link--email:before {
     content: "";
@@ -401,19 +399,15 @@ img {
     width: 32px;
     height: 32px;
     background-image: url("../../img/icon-email.svg");
-    background-color: #ffffff;
-    border-radius: 50%;
     background-repeat: no-repeat; }
-  .contacts__link--skype:before {
+  .contacts__link--telegram:before {
     content: "";
     position: absolute;
     top: 0;
     left: -40px;
     width: 32px;
     height: 32px;
-    background-image: url("../../img/icon-skype.svg");
-    background-color: #ffffff;
-    border-radius: 50%;
+    background-image: url("../../img/icon-telegram-2.svg");
     background-repeat: no-repeat; }
 
 .tech-skills {
