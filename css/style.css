@@ -609,35 +609,44 @@ img {
   line-height: 24px;
 }
 
-.projects {
+.portfolio {
   margin-bottom: 100px;
-  width: 80%; }
+  width: 100%; }
 
-.projects__title {
+.portfolio__title {
   font-size: 30px;
   font-weight: 700;
-  line-height: 24px; }
+  line-height: 24px;
+  background-image: url("../../img/icon-portfolio.svg");
+  background-repeat: no-repeat;
+  padding-left: 40px;}
 
-.projects__list {
+.portfolio__list {
   margin-top: 10px; }
 
-.projects__item {
+.portfolio__item {
   font-weight: 700;
-  margin-left: 17px; }
+  margin-left: 17px;
+  }
 
-.projects__link {
+.portfolio__item:focus, .portfolio__item:hover {
+  color: #68b738; }
+.portfolio__item:active {
+  opacity: 0.3; }
+
+.portfolio__link {
   color: #595959;
   font-size: 18px;
   font-weight: 400;
   line-height: 24px; }
-  .projects__link::after {
-    content: "................................"; }
-  .projects__link:focus, .projects__link:hover {
-    color: #68b738; }
-  .projects__link:active {
-    opacity: 0.3; }
+  .portfolio__link::after {
+    content: "..........................................................................."; }
+.portfolio__link:focus, .portfolio__link:hover {
+  color: #68b738; }
+.portfolio__link:active {
+  opacity: 0.3; }
 
-.projects__tech-name {
+.portfolio__tech-name {
   color: #595959;
   font-size: 18px;
   font-weight: 400;
