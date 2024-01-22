@@ -494,6 +494,36 @@ img {
   padding-top: 40px;
   width: 100%; }
 
+.localization {
+    display: flex;
+    justify-content: right; }
+
+.localization__link {
+  position: relative; }
+
+.localization__link--english:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -175px;
+  width: 70px;
+  height: 70px;
+  background-image: url("../../img/icon-english.svg");
+  background-repeat: no-repeat;  }
+
+.localization__link--ukraine:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100px;
+  width: 70px;
+  height: 70px;
+  background-image: url("../../img/icon-ukraine.svg");
+  background-repeat: no-repeat; }
+
+.localization__link--active {
+  opacity: 0.5; }
+
 .info {
   padding-top: 10px;
   margin-bottom: 105px;
